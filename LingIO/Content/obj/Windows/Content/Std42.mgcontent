@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>F:/User Data/Documents/Visual Studio 2019/Projects/LingIO/LingIO/Content/Std42.spritefont</SourceFile>
+  <SourceTime>2020-04-09T16:27:38.970458+02:00</SourceTime>
+  <DestFile>F:/User Data/Documents/Visual Studio 2019/Projects/LingIO/LingIO/Content/bin/Windows/Content/Std42.xnb</DestFile>
+  <DestTime>2020-04-09T16:27:51.7947619+02:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2018-12-08T17:35:54+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
