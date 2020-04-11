@@ -21,7 +21,7 @@ namespace LingIO
         protected override void Initialize() {
 
             sceneManager = new SceneManager( this );
-            sceneManager.RequestSceneChange( typeof( MenuMain ) );
+            sceneManager.RequestSceneChange( typeof( Scenes.MenuMain ) );
 
             base.Initialize();
         }
