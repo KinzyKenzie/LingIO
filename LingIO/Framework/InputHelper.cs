@@ -5,6 +5,9 @@ namespace LingIO.Framework
 {
     class InputHelper
     {
+        public bool GoUp { get { return IsKeyPressed( Keys.W ) || IsKeyPressed( Keys.Up ); } }
+        public bool GoDown { get { return IsKeyPressed( Keys.S ) || IsKeyPressed( Keys.Down ); } }
+
         KeyboardState kbs;
 
         private int keyboardSize;

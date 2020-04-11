@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
+using LingIO.Scenes;
 
 namespace LingIO.Framework
 {

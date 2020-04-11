@@ -46,7 +46,7 @@
     <Compile Include="Framework\SceneManager.cs" />
     <Compile Include="Framework\TextDraw.cs" />
     <Compile Include="LingIO.cs" />
-    <Compile Include="MenuMain.cs" />
+    <Compile Include="Scenes\MenuMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
