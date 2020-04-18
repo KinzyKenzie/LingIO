@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using LingIO.Framework;
@@ -9,20 +7,11 @@ namespace LingIO.Scenes
 {
     class MenuMain : Scene
     {
-        int WindowWidth { get { return Manager.Game.Window.ClientBounds.Width; } }
-        int WindowHeight { get { return Manager.Game.Window.ClientBounds.Height; } }
-
         SpriteFont fontSmall, fontLarge;
 
-        List<TextDraw> textBatch, options;
-
-        bool menuWrapping = false;
-        int selectedOption = 0;
-
         public MenuMain( SceneManager manager ) : base( manager ) {
-
-            textBatch = new List<TextDraw>();
-            options = new List<TextDraw>();
+            menuWrapping = false;
+            selectedOption = 0;
         }
 
         public override void Initialize() {
@@ -103,7 +92,7 @@ namespace LingIO.Scenes
 
                 case 1: // Options
 
-                    // Start new scene
+                    Manager.RequestSceneChange( typeof( MenuStub ) );
                     break;
 
                 case 2: // Quit Game
